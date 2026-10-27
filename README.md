@@ -1,9 +1,12 @@
 # Amazon Sales Analysis
 
 ## Project Overview
-This project analyzes Amazon sales data using Python. The goal was to explore the dataset, answer business-related questions, and visualize the insights using Pandas and Matplotlib.
 
-The project uses Pandas for data analysis and Matplotlib for data visualization.
+This project explores Amazon sales data using Python to uncover patterns in revenue, customer ratings, regional profitability, and discounting.
+
+Using Pandas for data analysis and Matplotlib for visualization, I investigated business-related questions, compared key metrics, and presented the findings through graphs.
+
+This project helped me practice data cleaning, exploratory data analysis (EDA), data visualization, and interpreting data to generate business insights.
 
 ## Technologies Used
 - Python
@@ -12,16 +15,20 @@ The project uses Pandas for data analysis and Matplotlib for data visualization.
 
 ## Dataset
 
-The dataset contains Amazon sales information including:
+The dataset contains Amazon sales information used to explore business performance and customer preferences.
 
-- Product Category
-- Customer Region
-- Payment Method
-- Discount Percentage
-- Revenue
-- Profit
-- Rating
-- Review Count
+The key attributes include:
+
+- **Product Category:** Categories of products sold.
+- **Customer Region:** Geographical regions associated with customers.
+- **Payment Method:** Payment methods used for purchases.
+- **Discount Percentage:** Discounts applied to products.
+- **Revenue:** Revenue generated from sales.
+- **Profit:** Profit associated with sales.
+- **Rating:** Customer ratings for products.
+- **Review Count:** Number of customer reviews.
+
+These attributes were used to investigate revenue patterns, compare customer ratings, analyze regional profitability, and explore the relationship between discounts and revenue.
 
 ## Business Questions
 
@@ -32,10 +39,10 @@ The dataset contains Amazon sales information including:
 
 ## Key Findings
 
-- Wallet generated the highest revenue.
-- Books had the highest average customer rating.
-- The Middle East generated the highest total profit.
-- There is a weak negative correlation between discount percentage and total revenue.
+- **Revenue by Payment Method:** Wallet was the highest-revenue-generating payment method in the dataset.
+- **Customer Ratings:** Books had the highest average customer rating among the product categories analyzed.
+- **Regional Profitability:** The Middle East recorded the highest total profit among the customer regions analyzed.
+- **Discounts and Revenue:** The analysis found a weak negative correlation between discount percentage and total revenue, suggesting a slight negative association between these variables in the dataset.
 
 ## Project Structure
 
@@ -62,12 +69,12 @@ amazon-sales-analysis/
 
 ## Visualizations
 
-The project contains:
+The project includes the following visualizations to communicate the results of the analysis:
 
-- Revenue by Payment Method (Bar graph)
-- Ratings by Product Category (Bar graph)
-- Profit by Customer Region (Bar graph)
-- Discount Percentage vs Total Revenue (Scatter Plot)
+- **Revenue by Payment Method:** Compares revenue generated through different payment methods.
+- **Average Ratings by Product Category:** Compares average customer ratings across product categories.
+- **Profit by Customer Region:** Shows how total profit varies across customer regions.
+- **Discount Percentage vs. Revenue:** Uses a scatter plot to explore the relationship between discount percentages and revenue.
 
 ## Skills Demonstrated
 
