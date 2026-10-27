@@ -76,6 +76,22 @@ The project includes the following visualizations to communicate the results of 
 - **Profit by Customer Region:** Shows how total profit varies across customer regions.
 - **Discount Percentage vs. Revenue:** Uses a scatter plot to explore the relationship between discount percentages and revenue.
 
+### Revenue by Payment Method
+
+![Revenue by Payment Method](graphs/revenue_by_payment_method.png)
+
+### Average Ratings by Product Category
+
+![Average Ratings by Product Category](graphs/ratings_by_category.png)
+
+### Profit by Customer Region
+
+![Profit by Customer Region](graphs/profit_by_customer_region.png)
+
+### Discount Percentage vs. Revenue
+
+![Discount Percentage vs. Revenue](graphs/discount_vs_revenue.png)
+
 ## Skills Demonstrated
 
 - Data Cleaning
